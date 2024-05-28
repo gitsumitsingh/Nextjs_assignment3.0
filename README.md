@@ -35,14 +35,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## NextJS Assignment 2.0
+## NextJS Assignment 3.0
 
-- 1. Create a Next Js application which demonstrate all the routes.
-- Dynamic Route, Nested Route, add Roue Group demo, Add Linking and Navigation, 
-- Add route handlers application should contain one home page which contain navigation by menu options
-- [done] https://github.com/gitsumitsingh/Nextjs_Assignment2.0
+- 1. Create a Next Js application which demonstrate data fetching by using ServerActions as well as try to perform mutations. take care of data caching and re validating.
+- [done] https://github.com/gitsumitsingh/Nextjs_assignment3.0
 
-- 2. What do you mean by Parallel Routes & Interceptor Routes?
-- As per my knowledge, nextjs provides Parallel Routes features which is useful for rendering multiple pages on same layout for fast updating the UI.
-- In Interceptor routes next js provide a feature to chnage the default behavior of the route in the same layout.
+- 2. Explain in details what are the advantages of ServerActions and Revalidating the data?
+- As per my knowledge, nextjs provides a great feature in ServerActions to submit form data to server or db using fetch api and can load data/refesh without page load.
+- In Revaladiting, we need to set a time for next js fetch api to fetch latest data on time interval.
 
